@@ -1,0 +1,2937 @@
+﻿<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大灣花生糖(西門店) | 台南伴手禮推薦 | 現切花生糖專賣店</title>
+    <meta name="description" content="台南必買伴手禮！大灣花生糖西門店提供現場手工現切花生糖、花生酥、芝麻糖，嚴選在地食材，傳統古法製作，$100起即可品嚐台南古早味。營業時間09:00-21:00，位於西門路一段697號。">
+    <meta name="keywords" content="台南伴手禮,花生糖,大灣花生糖,台南美食,現切花生糖,花生酥,芝麻糖,台南特產,西門店">
+    
+    <!-- Open Graph 社群分享資訊 -->
+    <meta property="og:title" content="大灣花生糖(西門店) | 台南伴手禮推薦">
+    <meta property="og:description" content="台南必買伴手禮！現場手工現切，嚴選在地花生，$100起即可品嚐台南古早味。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.大灣花生糖.com">
+    <meta property="og:image" content="https://via.placeholder.com/1200x630/D4A574/FFFFFF?text=大灣花生糖">
+    
+    <!-- 字體 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;600;700&family=Noto+Sans+TC:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- 結構化資料 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "大灣花生糖(西門店)",
+      "image": "https://via.placeholder.com/800x600/D4A574/FFFFFF?text=大灣花生糖",
+      "description": "台南在地傳統伴手禮專賣店，提供現場手工現切花生糖、花生酥、芝麻糖",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "西門路一段697號",
+        "addressLocality": "台南市",
+        "addressRegion": "中西區",
+        "postalCode": "700",
+        "addressCountry": "TW"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 22.9872811,
+        "longitude": 120.1973258
+      },
+      "telephone": "+886-6-222-0099",
+      "openingHours": "Mo-Su 09:00-21:00",
+      "priceRange": "$100-$200",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.3",
+        "bestRating": "5",
+        "ratingCount": "200"
+      }
+    }
+    </script>
+    
+    <style>
+        /* CSS 變數（設計系統） */
+        :root {
+            --color-primary: #D4A574;
+            --color-secondary: #8B4513;
+            --color-accent: #FFD700;
+            --color-dark: #2C2C2C;
+            --color-bg: #FFF8F0;
+            --hero-fill: #f3e3d2;
+            --color-white: #FFFFFF;
+            --color-text: #333333;
+            --color-text-light: #666666;
+            
+            --font-serif: 'Noto Serif TC', serif;
+            --font-sans: 'Noto Sans TC', sans-serif;
+            --font-number: 'Poppins', sans-serif;
+            
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+            --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.16);
+            
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            
+            --transition: all 0.3s ease;
+        }
+        
+        /* 基礎重置與全站預設 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+        }
+        
+        body {
+            font-family: var(--font-sans);
+            color: var(--color-text);
+            background-color: var(--color-bg);
+            line-height: 1.6;
+            overflow-x: hidden;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+        
+        button {
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-family: inherit;
+        }
+        
+        /* 文字樣式 */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-serif);
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        
+        h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+        }
+        
+        h2 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+        }
+        
+        h3 {
+            font-size: clamp(1.25rem, 3vw, 1.75rem);
+        }
+        
+        /* 版面容器 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* 區塊 */
+        section {
+            padding: 80px 0;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        section.in-view {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        /* 首屏（Hero）要立即可見 */
+        .hero {
+            opacity: 1;
+            transform: none;
+        }
+
+        .hero.in-view {
+            animation: none;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--color-dark);
+        }
+
+        .section-title h2 {
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .section-title h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+            border-radius: 2px;
+        }
+        
+        .section-subtitle {
+            color: var(--color-text-light);
+            font-size: 1.1rem;
+            margin-top: 15px;
+        }
+        
+        /* 首頁大圖（Hero） */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding: 100px 0;
+        }
+
+        .hero-bg-slider {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+            background: #000;
+        }
+
+        .hero-bg-track {
+            display: flex;
+            height: 100%;
+            transition: transform 0.9s ease;
+        }
+
+        .hero-bg-slide {
+            position: relative;
+            min-width: 100%;
+            height: 100%;
+            flex: 0 0 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: var(--hero-fill);
+            transform: scale(1.02);
+        }
+
+        .hero-bg-slide::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(212, 165, 116, 0.55) 0%, rgba(139, 69, 19, 0.55) 100%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(139, 69, 19, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .hero-content {
+            text-align: center;
+            color: var(--color-white);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+        
+        .hero h1 {
+            margin-bottom: 20px;
+            text-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .hero-slogan {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            margin-bottom: 30px;
+            font-weight: 300;
+            letter-spacing: 2px;
+        }
+        
+        .hero-rating {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+
+        
+        .stars {
+            color: var(--color-accent);
+            font-size: 1.3rem;
+            letter-spacing: 2px;
+        }
+        
+        .rating-number {
+            font-family: var(--font-number);
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        
+        .review-count {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.95rem;
+        }
+        
+        .hero-cta {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .cta-btn {
+            padding: 18px 30px;
+            border-radius: var(--radius-md);
+            font-size: 1.05rem;
+            font-weight: 600;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            box-shadow: var(--shadow-md);
+            white-space: nowrap;
+        }
+        
+        .cta-btn-primary {
+            background: var(--color-white);
+            color: var(--color-primary);
+        }
+        
+        .cta-btn-primary:hover {
+            background: var(--color-accent);
+            color: var(--color-dark);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .cta-btn-secondary {
+            background: rgba(255, 255, 255, 0.15);
+            color: var(--color-white);
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .cta-btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.25);
+            border-color: rgba(255, 255, 255, 0.5);
+            transform: translateY(-3px);
+        }
+        
+        /* 關於我們 */
+        .about {
+            padding: 90px 20px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .about h2 {
+            margin-bottom: 12px;
+            color: var(--color-dark);
+        }
+
+        .about .subtitle {
+            color: var(--color-secondary);
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .about-text {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.8;
+            color: var(--color-text-light);
+            font-size: 1.1rem;
+        }
+
+        .about-text p + p {
+            margin-top: 14px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 2px;
+            background: var(--color-secondary);
+            margin: 40px auto;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-top: 30px;
+        }
+
+        .feature {
+            background: #f1e2d3;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+
+        .feature:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--color-primary);
+        }
+
+        .feature h3 {
+            color: var(--color-secondary);
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        .feature p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: var(--color-text-light);
+        }
+
+        @keyframes titleSlideOut {
+            from {
+                opacity: 0;
+                transform: translateY(42px);
+                filter: blur(1.5px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+                filter: blur(0);
+            }
+        }
+
+        /* 關於我們動畫（由 section.in-view 觸發） */
+        .about h2,
+        .about .subtitle,
+        .about-text,
+        .divider {
+            opacity: 0;
+            transform: translateY(28px);
+        }
+
+        .about.in-view h2 {
+            animation: titleSlideOut 1.05s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .about.in-view .subtitle {
+            animation: fadeInUp 0.95s cubic-bezier(0.16, 1, 0.3, 1) 0.12s forwards;
+        }
+
+        .about.in-view .about-text {
+            animation: fadeInUp 0.95s cubic-bezier(0.16, 1, 0.3, 1) 0.22s forwards;
+        }
+
+        @keyframes dividerGrow {
+            from {
+                opacity: 0;
+                transform: scaleX(0.4);
+            }
+            to {
+                opacity: 1;
+                transform: scaleX(1);
+            }
+        }
+
+        .about.in-view .divider {
+            transform-origin: center;
+            animation: dividerGrow 0.9s cubic-bezier(0.16, 1, 0.3, 1) 0.32s forwards;
+        }
+
+        /* 產品標題動畫（與其他部分的慢速滑動保持一致） */
+        .products .section-title h2,
+        .products .section-title .section-subtitle {
+            opacity: 0;
+            transform: translateY(28px);
+        }
+
+        .products.in-view .section-title h2 {
+            animation: titleSlideOut 1.05s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .products.in-view .section-title .section-subtitle {
+            animation: fadeInUp 0.95s cubic-bezier(0.16, 1, 0.3, 1) 0.12s forwards;
+        }
+
+        /* 響應式設計 */
+        @media (max-width: 1024px) {
+            .container {
+                padding: 0 15px;
+            }
+            
+            .hero h1 {
+                font-size: clamp(2rem, 4vw, 3rem);
+            }
+            
+            .menu-container {
+                justify-content: center;
+                gap: 15px;
+            }
+            
+            .menu-card {
+                width: 180px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about {
+                padding: 70px 16px;
+            }
+
+            .about .subtitle,
+            .about-text {
+                font-size: 1.05rem;
+            }
+
+            html {
+                font-size: 14px;
+            }
+            
+            section {
+                padding: 50px 0;
+            }
+            
+            .hero {
+                min-height: auto;
+                padding: 60px 0;
+                text-align: center;
+            }
+            
+            .hero h1 {
+                font-size: clamp(1.8rem, 6vw, 2.5rem);
+                margin-bottom: 15px;
+            }
+            
+            .hero-slogan {
+                font-size: clamp(1rem, 4vw, 1.3rem);
+                margin-bottom: 25px;
+            }
+            
+            .hero-rating {
+                margin-bottom: 30px;
+            }
+
+            
+            .hero-cta {
+                grid-template-columns: 1fr;
+                gap: 12px;
+                max-width: 400px;
+                margin: 0 auto;
+            }
+            
+            .cta-btn {
+                padding: 16px 24px;
+                font-size: 0.95rem;
+            }
+            
+            .section-title {
+                margin-bottom: 40px;
+            }
+            
+            .section-title h2 {
+                font-size: clamp(1.5rem, 5vw, 2.2rem);
+            }
+            
+            .features-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 25px;
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+                gap: 25px;
+            }
+            
+            .product-card {
+                margin: 0 auto;
+                max-width: 320px;
+            }
+            
+            .menu-container {
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+            
+            .menu-card {
+                width: 100%;
+                max-width: 300px;
+                padding: 15px;
+            }
+            
+            .menu-card h3 {
+                font-size: 1rem;
+            }
+            
+            .reviews-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .location-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+            }
+
+            .checkout-layout {
+                grid-template-columns: 1fr;
+            }
+            
+            .location-info {
+                padding: 30px;
+            }
+            
+            .info-item {
+                margin-bottom: 20px;
+            }
+            
+            .map-container {
+                height: 300px;
+                border-radius: var(--radius-lg);
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 15px;
+            }
+            
+            .cta-btn-large {
+                padding: 18px 30px;
+                font-size: 1rem;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+                gap: 30px;
+                text-align: center;
+            }
+            
+            .footer-section {
+                margin-bottom: 20px;
+            }
+            
+            .social-links {
+                justify-content: center;
+                margin-top: 15px;
+            }
+            
+            .social-icon {
+                width: 40px;
+                height: 40px;
+            }
+
+            .floating-cart {
+                right: 12px;
+                bottom: 12px;
+                padding: 10px 14px;
+                font-size: 0.9rem;
+            }
+
+            .cart-modal-actions {
+                flex-direction: column;
+            }
+
+            .cart-item {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+
+            .cart-item-actions {
+                justify-content: flex-start;
+            }
+
+            .cart-modal-content {
+                width: 100%;
+                max-height: 88vh;
+                padding: 18px;
+                border-radius: 14px;
+            }
+
+            .checkout-form-panel,
+            .cart-panel {
+                padding: 18px;
+            }
+
+            .checkout-form input,
+            .checkout-form textarea,
+            .checkout-submit-btn,
+            .cart-modal-btn,
+            .add-to-cart-btn {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            html {
+                font-size: 13px;
+            }
+            
+            .container {
+                padding: 0 10px;
+            }
+            
+            section {
+                padding: 40px 0;
+            }
+            
+            .hero {
+                padding: 50px 0;
+            }
+            
+            .hero h1 {
+                font-size: clamp(1.6rem, 7vw, 2.2rem);
+            }
+            
+            .hero-slogan {
+                font-size: clamp(0.95rem, 4.5vw, 1.2rem);
+            }
+
+            
+            .hero-cta {
+                gap: 10px;
+                max-width: 350px;
+            }
+            
+            .cta-btn {
+                padding: 14px 20px;
+                font-size: 0.9rem;
+            }
+            
+            .features-grid,
+            .products-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .product-card,
+            .feature-card,
+            .review-card {
+                max-width: 100%;
+                margin: 0 auto;
+            }
+            
+            .product-info {
+                padding: 20px;
+            }
+            
+            .product-name {
+                font-size: 1.3rem;
+            }
+            
+            .product-price {
+                font-size: 1.6rem;
+            }
+            
+            .menu-card {
+                max-width: 280px;
+                padding: 12px;
+            }
+            
+            .menu-card img {
+                width: 100%;
+                height: auto;
+            }
+            
+            .location-info {
+                padding: 25px;
+            }
+            
+            .map-container {
+                height: 250px;
+            }
+            
+            .footer-section h3 {
+                font-size: 1.1rem;
+            }
+            
+            .footer-section p,
+            .footer-section a {
+                font-size: 0.9rem;
+            }
+
+            .hero-badge {
+                font-size: 0.8rem;
+                padding: 6px 14px;
+            }
+
+            .floating-cart {
+                border-radius: 14px;
+                width: calc(100% - 20px);
+                left: 10px;
+                right: 10px;
+                bottom: 10px;
+                justify-content: center;
+            }
+
+            .cart-modal {
+                padding: 10px;
+            }
+
+            .cart-modal-content {
+                padding: 14px;
+            }
+
+            .image-lightbox {
+                padding: 14px;
+            }
+
+            .image-lightbox-close {
+                top: -10px;
+                right: -10px;
+            }
+        }
+
+        /* 裝置尺寸斷點微調 */
+        @media (max-width: 1024px) and (min-width: 769px) {
+            .hero {
+                min-height: 76vh;
+            }
+
+            .hero-cta {
+                max-width: 760px;
+            }
+
+            .menu-card {
+                width: 190px;
+            }
+        }
+
+        @media (max-width: 768px) and (min-width: 415px) {
+            .hero {
+                min-height: 68vh;
+            }
+
+            .section-title h2 {
+                font-size: clamp(1.45rem, 4.8vw, 2rem);
+            }
+
+            .menu-card {
+                max-width: 340px;
+            }
+
+            .cart-modal-content {
+                max-height: 85vh;
+            }
+        }
+
+        @media (max-width: 414px) and (min-width: 376px) {
+            .hero {
+                padding: 44px 0;
+            }
+
+            .hero-content {
+                padding: 0 4px;
+            }
+
+            .cta-btn {
+                padding: 13px 16px;
+            }
+
+            .checkout-form-panel,
+            .cart-panel {
+                padding: 16px;
+            }
+        }
+
+        @media (max-width: 375px) and (min-width: 321px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+
+            .hero-slogan {
+                font-size: 0.95rem;
+            }
+
+            .menu-card {
+                max-width: 260px;
+            }
+
+            .cart-item-meta {
+                font-size: 0.85rem;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .container {
+                padding: 0 8px;
+            }
+
+            .hero {
+                padding: 36px 0;
+            }
+
+            .hero h1 {
+                font-size: 1.55rem;
+            }
+
+            .hero-slogan {
+                font-size: 0.9rem;
+                letter-spacing: 1px;
+            }
+
+            .cta-btn {
+                padding: 12px 14px;
+                font-size: 0.85rem;
+            }
+
+            .menu-card {
+                max-width: 240px;
+                padding: 10px;
+            }
+
+            .checkout-form-panel,
+            .cart-panel,
+            .cart-modal-content {
+                padding: 12px;
+            }
+
+            .floating-cart {
+                width: calc(100% - 16px);
+                left: 8px;
+                right: 8px;
+                bottom: 8px;
+                font-size: 0.85rem;
+            }
+        }
+        
+        /* 觸控裝置友善調整 */
+        @media (hover: none) and (pointer: coarse) {
+            .cta-btn,
+            .cta-btn-large,
+            .product-card,
+            .feature-card,
+            .review-card,
+            .menu-card {
+                min-height: 44px;
+            }
+            
+            .social-icon {
+                min-width: 44px;
+                min-height: 44px;
+            }
+        }
+        
+        /* 高 DPI 螢幕 */
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+            .hero {
+                background-size: cover;
+            }
+        }
+        
+        /* 精選商品 */
+        .products {
+            background: linear-gradient(180deg, var(--color-white) 0%, var(--color-bg) 100%);
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .product-card {
+            background: var(--color-white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border: 2px solid transparent;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--color-primary);
+        }
+        
+        .product-image {
+            width: 100%;
+            /* 維持卡片比例一致，但不要裁切照片 */
+            aspect-ratio: 4 / 3;
+            height: auto;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-accent) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            background: #ffffff;
+            position: relative;
+            z-index: 1;
+        }
+
+
+        .img-fit-contain {
+            object-fit: contain !important;
+            background: rgba(255, 255, 255, 0.08);
+        }
+
+        .img-bg-white {
+            background: #ffffff !important;
+        }
+
+        .img-center {
+            object-position: center center !important;
+        }
+
+        .img-zoom-md {
+            transform: scale(1.2);
+            transform-origin: center;
+        }
+
+        .img-zoom-sm {
+            transform: scale(1.1);
+            transform-origin: center;
+        }
+        
+        .product-image::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, transparent 70%);
+            animation: shimmer 3s infinite;
+        }
+        
+        @keyframes shimmer {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(10%, 10%); }
+        }
+        
+        .product-info {
+            padding: 25px;
+        }
+        
+        .product-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .product-name {
+            font-size: 1.4rem;
+            color: var(--color-dark);
+            font-weight: 600;
+        }
+        
+        .product-price {
+            font-family: var(--font-number);
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--color-primary);
+        }
+        
+        .product-price span {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        
+        .product-description {
+            color: var(--color-text-light);
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .product-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .tag {
+            background: var(--color-bg);
+            color: var(--color-primary);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .add-to-cart-btn {
+            margin-top: 18px;
+            width: 100%;
+            background: var(--color-primary);
+            color: var(--color-white);
+            padding: 12px 16px;
+            border-radius: var(--radius-sm);
+            font-weight: 600;
+            transition: var(--transition);
+        }
+
+        .add-to-cart-btn:hover {
+            background: var(--color-secondary);
+            transform: translateY(-2px);
+        }
+
+        .floating-cart {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 2000;
+            background: var(--color-dark);
+            color: var(--color-white);
+            border-radius: 999px;
+            padding: 12px 18px;
+            box-shadow: var(--shadow-lg);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+
+        .floating-cart:hover {
+            background: var(--color-secondary);
+        }
+
+        .floating-cart-count {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 24px;
+            height: 24px;
+            border-radius: 999px;
+            background: var(--color-accent);
+            color: var(--color-dark);
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+        .cart-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.45);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            z-index: 3000;
+        }
+
+        .cart-modal.show {
+            display: flex;
+        }
+
+        .cart-modal-content {
+            width: min(560px, 100%);
+            background: var(--color-white);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            padding: 24px;
+            max-height: 80vh;
+            overflow: auto;
+        }
+
+        .cart-modal-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 14px;
+        }
+
+        .cart-modal-title {
+            font-size: 1.3rem;
+            color: var(--color-dark);
+        }
+
+        .cart-modal-close {
+            font-size: 1.5rem;
+            line-height: 1;
+            color: var(--color-text-light);
+        }
+
+        .cart-modal-close:hover {
+            color: var(--color-dark);
+        }
+
+        .cart-modal-summary {
+            margin-top: 12px;
+            border-top: 1px dashed rgba(0, 0, 0, 0.2);
+            padding-top: 12px;
+        }
+
+        .cart-modal-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 16px;
+        }
+
+        .cart-modal-btn {
+            flex: 1;
+            border-radius: var(--radius-sm);
+            padding: 11px 14px;
+            text-align: center;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .cart-modal-btn.secondary {
+            background: var(--color-bg);
+            color: var(--color-dark);
+        }
+
+        .cart-modal-btn.primary {
+            background: var(--color-secondary);
+            color: var(--color-white);
+        }
+
+        .image-lightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.82);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            z-index: 3500;
+        }
+
+        .image-lightbox.show {
+            display: flex;
+        }
+
+        .image-lightbox-content {
+            position: relative;
+            width: min(94vw, 560px);
+            height: min(90vh, 860px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-lightbox-img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            aspect-ratio: auto;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: var(--shadow-lg);
+            background: #fff;
+        }
+
+        .image-lightbox-close {
+            position: absolute;
+            top: -14px;
+            right: -14px;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.92);
+            color: var(--color-dark);
+            font-size: 1.4rem;
+            line-height: 1;
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* 結帳區 */
+        .checkout {
+            background: var(--color-white);
+        }
+
+        .checkout-layout {
+            display: grid;
+            grid-template-columns: 1.1fr 1fr;
+            gap: 30px;
+            align-items: start;
+        }
+
+        .cart-panel,
+        .checkout-form-panel {
+            background: var(--color-bg);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .cart-items {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 18px;
+        }
+
+        .cart-item {
+            background: var(--color-white);
+            border-radius: var(--radius-sm);
+            padding: 12px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .cart-item-title {
+            font-weight: 600;
+            color: var(--color-dark);
+        }
+
+        .cart-item-meta {
+            color: var(--color-text-light);
+            font-size: 0.9rem;
+        }
+
+        .cart-item-actions {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+        }
+
+        .qty-btn {
+            background: var(--color-primary);
+            color: var(--color-white);
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            font-weight: 700;
+        }
+
+        .remove-btn {
+            color: #f44336;
+            font-size: 0.9rem;
+        }
+
+        .cart-summary {
+            border-top: 1px dashed rgba(0, 0, 0, 0.2);
+            padding-top: 12px;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+        }
+
+        .summary-row.total {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--color-secondary);
+        }
+
+        .checkout-form .form-group {
+            margin-bottom: 14px;
+        }
+
+        .checkout-form label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: var(--color-dark);
+        }
+
+        .checkout-form input,
+        .checkout-form textarea {
+            width: 100%;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: var(--radius-sm);
+            padding: 10px 12px;
+            font-family: inherit;
+            font-size: 1rem;
+            min-height: 44px;
+        }
+
+        .checkout-submit-btn {
+            width: 100%;
+            background: var(--color-secondary);
+            color: var(--color-white);
+            padding: 12px 16px;
+            border-radius: var(--radius-sm);
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 8px;
+        }
+
+        .checkout-submit-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .checkout-message {
+            margin-top: 12px;
+            font-size: 0.95rem;
+            color: #2e7d32;
+            min-height: 22px;
+        }
+
+        .error {
+            color: #f44336;
+            font-size: 14px;
+            min-height: 20px;
+            margin-top: 4px;
+        }
+
+        
+        /* 產品菜單 */
+        .menu {
+            background: #f8f8f8;
+            padding: 60px 0;
+        }
+        
+        .menu-category {
+            margin-bottom: 40px;
+        }
+        
+        .menu-category h2 {
+            font-size: 1.5rem;
+            color: var(--color-dark);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--color-primary);
+        }
+        
+        .menu-container {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .menu-card {
+            background: var(--color-white);
+            padding: 20px;
+            width: 200px;
+            border-radius: 12px;
+            text-align: center;
+            transition: var(--transition);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            opacity: 0;
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+
+        .menu-card.no-image::before {
+            content: '';
+            display: block;
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            margin-bottom: 10px;
+        }
+
+        @keyframes photoFloat {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.98);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+        
+        .menu-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            transition: var(--transition);
+            object-fit: cover;
+            object-position: center;
+            aspect-ratio: 1 / 1;
+        }
+
+        /* 只針對特定品項：圖片往下拉到底（底部對齊） */
+        .menu-card img.img-pos-bottom {
+            object-position: center 100%;
+        }
+
+        /* 底部對齊但稍微往上（避免太貼底） */
+        .menu-card img.img-pos-bottom-up {
+            object-position: center 88%;
+        }
+
+        .menu-card img.img-pos-bottom-up-86 {
+            object-position: center 82%;
+        }
+
+        /* 底部對齊，微幅往上 */
+        .menu-card img.img-pos-bottom-up-sm {
+            object-position: center 94%;
+        }
+
+        /* 微幅往上（只改呈現裁切位置） */
+        .menu-card img.img-pos-up-sm {
+            object-position: center 70%;
+        }
+
+        /* 單品微調 */
+        .menu-card img.img-pos-72 {
+            object-position: center 72%;
+        }
+
+        .menu-card img.img-pos-80 {
+            object-position: center 80%;
+        }
+
+        .menu-card img.img-pos-78 {
+            object-position: center 78%;
+        }
+
+
+        
+        .menu-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .menu-card:hover img {
+            transform: scale(1.05);
+        }
+        
+        .menu-card h3 {
+            margin: 0 0 10px 0;
+            color: var(--color-dark);
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .price {
+            color: var(--color-primary);
+            font-weight: bold;
+            margin: 0;
+            font-size: 1rem;
+        }
+        
+        .menu-note {
+            background: #fff3cd;
+            padding: 25px;
+            margin-top: 40px;
+            border-radius: 10px;
+        }
+        
+        .menu-note h3 {
+            margin-top: 0;
+            color: var(--color-dark);
+        }
+        
+        .menu-note p {
+            margin: 8px 0;
+            color: var(--color-text);
+        }
+        
+        /* 顧客好評 */
+        .reviews {
+            background: var(--color-white);
+        }
+        
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .review-card {
+            background: var(--color-bg);
+            padding: 30px;
+            border-radius: var(--radius-lg);
+            border-left: 4px solid var(--color-primary);
+            transition: var(--transition);
+            position: relative;
+        }
+        
+        .review-card:hover {
+            transform: translateX(5px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .review-card::before {
+            content: '"';
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 4rem;
+            color: var(--color-primary);
+            opacity: 0.2;
+            font-family: Georgia, serif;
+            line-height: 1;
+        }
+        
+        .review-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .reviewer-name {
+            font-weight: 600;
+            color: var(--color-dark);
+        }
+        
+        .review-stars {
+            color: var(--color-accent);
+        }
+        
+        .review-text {
+            color: var(--color-text-light);
+            line-height: 1.7;
+            font-style: italic;
+        }
+        
+        /* 店鋪資訊 */
+        .location {
+            background: linear-gradient(180deg, var(--color-white) 0%, var(--color-bg) 100%);
+        }
+        
+        .location-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        
+        .location-info {
+            background: var(--color-white);
+            padding: 40px;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+        
+        .info-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+        
+        .info-icon {
+            font-size: 1.5rem;
+            color: var(--color-primary);
+            min-width: 30px;
+        }
+        
+        .info-details h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: var(--color-dark);
+        }
+        
+        .info-details p {
+            color: var(--color-text-light);
+            line-height: 1.6;
+        }
+        
+        .hours-table {
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .hours-table tr {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+        
+        .hours-table td:first-child {
+            font-weight: 500;
+        }
+        
+        .status-badge {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        .map-container {
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            height: 500px;
+        }
+        
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* 行動呼籲（CTA） */
+        .cta-section {
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+            color: var(--color-white);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .cta-content {
+            position: relative;
+            z-index: 1;
+        }
+        
+        .cta-section h2 {
+            margin-bottom: 20px;
+            color: var(--color-white);
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .cta-btn-large {
+            padding: 20px 40px;
+            font-size: 1.1rem;
+            border-radius: var(--radius-md);
+            font-weight: 700;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            box-shadow: var(--shadow-lg);
+        }
+        
+        .cta-btn-large.primary {
+            background: var(--color-white);
+            color: var(--color-primary);
+        }
+        
+        .cta-btn-large.primary:hover {
+            background: var(--color-accent);
+            color: var(--color-dark);
+            transform: translateY(-5px);
+        }
+        
+        .cta-btn-large.secondary {
+            background: transparent;
+            color: var(--color-white);
+            border: 3px solid var(--color-white);
+        }
+        
+        .cta-btn-large.secondary:hover {
+            background: var(--color-white);
+            color: var(--color-primary);
+            transform: translateY(-5px);
+        }
+        
+        /* 頁尾 */
+        footer {
+            background: linear-gradient(135deg, #8f5f2f 0%, #5f2a09 100%);
+            color: var(--color-white);
+            padding: 60px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-section h3 {
+            margin-bottom: 20px;
+            color: var(--color-accent);
+            font-size: 1.3rem;
+        }
+        
+        .footer-section:first-child {
+            text-align: center;
+        }
+        
+        .footer-section p,
+        .footer-section a {
+            color: rgba(255, 255, 255, 0.94);
+            line-height: 1.8;
+            display: block;
+            margin-bottom: 10px;
+            white-space: nowrap;
+        }
+        
+        .social-links .footer-section a {
+            display: block;
+            white-space: normal;
+        }
+        
+        .footer-section p a {
+            display: inline;
+            white-space: nowrap;
+        }
+        
+        .icon {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+        
+        .icon-emoji {
+            display: inline-block;
+            font-size: 1.2em;
+            line-height: 1.2em;
+            vertical-align: middle;
+        }
+        
+        .footer-section .icon-emoji {
+            font-size: 1.5em;
+            line-height: 1.5em;
+        }
+        
+        .footer-section a:hover {
+            color: var(--color-accent);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            justify-content: center;
+        }
+        
+        .social-icon {
+            width: 45px;
+            height: 45px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+        }
+        
+        .social-icon:hover {
+            background: var(--color-primary);
+            transform: translateY(-3px);
+        }
+
+        .social-icon {
+            width: 45px;
+            height: 45px;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.85);
+        }
+        
+        .kuse-branding {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+        
+        .kuse-branding:hover {
+            color: var(--color-accent);
+        }
+        
+        .kuse-branding svg {
+            height: 1.2em;
+            transition: var(--transition);
+        }
+    </style>
+</head>
+<body>
+    <!-- 首頁大圖（Hero） -->
+    <section class="hero" id="top">
+        <div class="hero-bg-slider" id="hero-bg-slider">
+            <div class="hero-bg-track" id="hero-bg-track">
+                <div class="hero-bg-slide" style="background-image: url('images/現切照1.jpg');"></div>
+                <div class="hero-bg-slide" style="background-image: url('images/外觀近.jpg'); background-position: center 42%;"></div>
+                <div class="hero-bg-slide" style="background-image: url('images/外觀遠.jpg'); background-position: center 85%;"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">台南在地老店</div>
+                <h1>大灣花生糖(西門店)</h1>
+                <p class="hero-slogan">台南古早味 · 現切職人手藝</p>
+                
+                <div class="hero-rating">
+                    <span class="stars">★★★★☆</span>
+                    <span class="rating-number">4.2</span>
+                    <span class="review-count">(300+ 則評論)</span>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="https://www.google.com/maps/place/大灣花生糖(西門店)/@22.9872811,120.1947509,17z/data=!3m1!4b1!4m6!3m5!1s0x346e767bc38fdae5:0xf54557da28d948ab!8m2!3d22.9872811!4d120.1973258!16s%2Fg%2F11gzwqgnd" target="_blank" class="cta-btn cta-btn-secondary">
+                        <span class="icon-emoji">📍</span> Google 導航
+                    </a>
+                    <a href="tel:06-222-0099" class="cta-btn cta-btn-secondary">
+                        <span class="icon-emoji">📞</span> 立即撥打
+                    </a>
+                    <a href="https://page.line.me/289cnzqc" target="_blank" class="cta-btn cta-btn-secondary">
+                        <img src="https://static.vecteezy.com/system/resources/previews/018/930/709/non_2x/line-logo-line-icon-transparent-free-png.jpg" alt="LINE" class="icon" style="vertical-align: middle;"> LINE 諮詢
+                    </a>
+                    <a href="https://www.facebook.com/a062220099/?locale=zh_TW" target="_blank" class="cta-btn cta-btn-secondary">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/065/386/537/small/facebook-circle-logo-icon-fb-app-transparent-background-premium-social-media-design-for-digital-download-free-png.jpg" alt="Facebook" class="icon" style="vertical-align: middle;"> Facebook 粉專
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 關於我們 -->
+    <section class="about" id="about">
+        <div class="container">
+            <!-- 標題區 -->
+            <h2>關於我們</h2>
+            <p class="subtitle">傳承台南在地傳統手藝，堅持品質與用心</p>
+
+            <!-- 品牌介紹 -->
+            <div class="about-text">
+                <p>
+                    大灣花生糖西門店，是台南在地深耕多年的傳統伴手禮專賣店。
+                    我們秉持對古早味的堅持，每一份產品皆由職人現場手工製作，
+                    只為呈現最純粹的台南味道。
+                </p>
+
+                <p>
+                    嚴選台南在地優質花生，採用傳統古法製作，
+                    不添加防腐劑，讓您吃得安心、吃得健康。
+                    無論自用或送禮，皆是最佳選擇。
+                </p>
+            </div>
+
+            <!-- 分隔線 -->
+            <div class="divider"></div>
+
+            <!-- 特色區（卡片化重點） -->
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>現場手工現切</h3>
+                    <p>每一塊花生糖都是現場手工現切，保證新鮮度與最佳口感，讓您品嚐到最道地的台南古早味。</p>
+                </div>
+
+                <div class="feature">
+                    <h3>嚴選在地食材</h3>
+                    <p>堅持使用雲林北港的優質花生，顆粒飽滿、香氣濃郁，每一口都是用心與品質的保證。</p>
+                </div>
+
+                <div class="feature">
+                    <h3>傳統古法製作</h3>
+                    <p>傳承數十年的古法製作技藝，不添加防腐劑，香脆不黏牙，讓您回味無窮。</p>
+                </div>
+
+                <div class="feature">
+                    <h3>平價實惠</h3>
+                    <p>只要 $100 元起即可品嚐道地台南伴手禮，高CP值讓您買得開心、送得大方。</p>
+                </div>
+
+                <div class="feature">
+                    <h3>多種口味選擇</h3>
+                    <p>提供花生糖、花生酥、黑芝麻糖、白芝麻花生糖等多種口味，滿足不同喜好需求。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 精選商品 -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>精選商品</h2>
+                <p class="section-subtitle">每一款都是台南古早味的經典代表</p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-product-name="麥芽花生糖" data-product-price="100">
+                    <div class="product-image">
+                        <img class="img-fit-contain img-center img-bg-white" src="images/麥芽花生糖.jpg" alt="麥芽花生糖">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">麥芽花生糖</h3>
+                            <div class="product-price">$200<span>/盒</span></div>
+                        </div>
+                        <p class="product-description">傳統麥芽糖製作，共有顆粒花生、花生卷、黑芝麻三種口味，軟Q不黏牙，現切兩排份量，以秤重為準，適合自用或送禮。</p>
+                        <div class="product-tags">
+                            <span class="tag">人氣推薦</span>
+                            <span class="tag">現切新鮮</span>
+                            <span class="tag">送禮自用</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-product-name="花生酥糖" data-product-price="100">
+                    <div class="product-image">
+                        <img src="images/IMG_0509.jpg" alt="花生酥糖">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">花生酥糖</h3>
+                            <div class="product-price">$100<span>/包</span></div>
+                        </div>
+                        <p class="product-description">以砂糖為主製作，混合白芝麻與花生，口感最脆，香氣濃郁，每一口都是滿滿的芝麻香與花生香的完美結合。</p>
+                        <div class="product-tags">
+                            <span class="tag">香氣濃郁</span>
+                            <span class="tag">口感最脆</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-product-name="花生糖麥芽餅" data-product-price="100">
+                    <div class="product-image">
+                        <img class="img-fit-contain img-center img-bg-white" src="images/花生麥芽餅.jpg" alt="麥芽餅花生糖">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-header">
+                            <h3 class="product-name">花生麥芽餅</h3>
+                            <div class="product-price">$160<span>/包</span></div>
+                        </div>
+                        <p class="product-description">麥芽餅夾花生糖的獨特組合，口感層次豐富，酥脆與香甜的完美交融，是獨特的台南古早味。</p>
+                        <div class="product-tags">
+                            <span class="tag">獨家販售</span>
+                            <span class="tag">特色商品</span>
+                            <span class="tag">獨特口感</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 結帳區 -->
+    <section class="checkout" id="checkout">
+        <div class="container">
+            <div class="section-title">
+                <h2>結帳頁</h2>
+                <p class="section-subtitle">確認購物車內容後，留下聯絡資訊即可完成訂購</p>
+            </div>
+
+            <div class="checkout-layout">
+                <div class="cart-panel">
+                    <h3>購物車明細</h3>
+                    <div class="cart-items" id="cart-items"></div>
+                    <div class="cart-summary">
+                        <div class="summary-row">
+                            <span>小計</span>
+                            <span id="cart-subtotal">$0</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>運費（滿 3000 免運）</span>
+                            <span id="cart-shipping">$100</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>應付總額</span>
+                            <span id="cart-total">$0</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="checkout-form-panel">
+                    <h3>訂購人資料</h3>
+                    <form class="checkout-form" id="checkout-form">
+                        <div class="form-group">
+                            <label for="name">姓名</label>
+                            <input id="name" name="customerName" type="text" required placeholder="請輸入姓名">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">手機</label>
+                            <input id="phone" name="customerPhone" type="tel" required placeholder="請輸入手機號碼">
+                            <div class="error" id="phoneErr"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">收件地址</label>
+                            <input id="address" name="customerAddress" type="text" required placeholder="請輸入完整地址">
+                            <div class="error" id="addrErr"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="customer-note">備註</label>
+                            <textarea id="customer-note" name="customerNote" rows="4" placeholder="可填寫口味、到貨時段、匯款末五碼等"></textarea>
+                        </div>
+                        <button class="checkout-submit-btn" id="checkout-submit" type="submit">送出訂單</button>
+                        <p class="checkout-message" id="checkout-message"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 產品菜單 -->
+    <section class="menu">
+        <div class="container">
+            <div class="section-title">
+                <h2>產品菜單</h2>
+                <p class="section-subtitle">嚴選商品，來自台南的經典手工甜點</p>
+            </div>
+            
+            <!-- 禮盒系列 -->
+            <div class="menu-category">
+                <h2>麥芽糖禮盒系列</h2>
+                <div class="menu-container">
+                    <div class="menu-card">
+                        <img class="img-fit-contain img-center" src="images/御品禮盒.jpg" alt="御品禮盒">
+                        <h3>御品禮盒<br>（任選三種口味）</h3>
+                        <p class="price">$300 / 盒</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-fit-contain img-center" src="images/麥芽花生糖.jpg" alt="經典禮盒">
+                        <h3>經典禮盒<br>（任選三種口味）</h3>
+                        <p class="price">$200 / 盒</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 手工麥芽餅 -->
+            <div class="menu-category">
+                <h2>手工麥芽餅</h2>
+                <div class="menu-container">
+                    <div class="menu-card">
+                        <img class="img-center" src="images/花生麥芽餅.jpg" alt="">
+                        <h3>花生麥芽餅</h3>
+                        <p class="price">$160 / 瓶</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-center" src="images/芝麻麥芽餅.jpg" alt="芝麻麥芽餅">
+                        <h3>芝麻麥芽餅</h3>
+                        <p class="price">$160 / 瓶</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 花生系列 -->
+            <div class="menu-category">
+                <h2>花生系列</h2>
+                <div class="menu-container">
+                    <div class="menu-card">
+                        <img class="img-pos-up-sm" src="images/香炒.jpg" alt="香炒花生">
+                        <h3>香炒花生</h3>
+                        <p class="price">$130 / 罐</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-72" src="images/鹽酥.jpg" alt="鹽酥花生">
+                        <h3>鹽酥花生</h3>
+                        <p class="price">$130 / 罐</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-78" src="images/麻辣.jpg" alt="麻辣花生">
+                        <h3>麻辣花生</h3>
+                        <p class="price">$130 / 罐</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-up-sm" src="images/蔥蒜.jpg" alt="蔥蒜花生">
+                        <h3>蔥蒜花生</h3>
+                        <p class="price">$130 / 罐</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 酥糖系列 -->
+            <div class="menu-category">
+                <h2>酥糖系列</h2>
+                <div class="menu-container">
+                    <div class="menu-card">
+                        <img class="img-center" src="images/IMG_0509.jpg" alt="花生酥糖">
+                        <h3>花生酥糖</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-center" src="images/IMG_0508.jpg" alt="芝麻酥糖">
+                        <h3>芝麻酥糖</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 花生球系列 -->
+            <div class="menu-category">
+                <h2>花生球</h2>
+                <div class="menu-container">
+                    <div class="menu-card">
+                        <img class="img-pos-bottom-up-86" src="images/紅麴花生球.jpg" alt="紅麴花生球">
+                        <h3>紅麴花生球</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-bottom-up" src="images/竹炭花生球.jpg" alt="竹炭花生球">
+                        <h3>竹炭花生球</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-bottom-up" src="images/芝麻花生球.jpg" alt="芝麻花生球">
+                        <h3>芝麻花生球</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-bottom-up-sm" src="images/芥末花生球.jpg" alt="芥末花生球">
+                        <h3>芥末花生球</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                    <div class="menu-card">
+                        <img class="img-pos-bottom-up-sm" src="images/四色花生球.jpg" alt="四色花生球">
+                        <h3>四色花生球</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 芝麻粉 -->
+            <div class="menu-category">
+                <h2>芝麻粉</h2>
+                <div class="menu-container">
+                    <div class="menu-card">
+                        <img class="img-center" src="images/黑芝麻粉.jpg" alt="黑芝麻粉">
+                        <h3>黑芝麻粉</h3>
+                        <p class="price">$100 / 包</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 訂購資訊 -->
+            <div class="menu-note">
+                <h3>📌 訂購資訊</h3>
+                <p>購買方式：現場購買、LINE、電話預訂</p>
+                <p>滿3000免運，未滿酌收運費100元</p>
+                <p>付款方式：無摺存款 / ATM轉帳</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 顧客好評 -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-title">
+                <h2>顧客好評</h2>
+                <p class="section-subtitle">來自真實顧客的五星推薦</p>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="reviewer-name">陳小姐</span>
+                        <span class="review-stars">★★★★★</span>
+                    </div>
+                    <p class="review-text">花生香氣濃郁，甜度適中不會太甜，現切的真的很新鮮！每次回台南必買的伴手禮，家人朋友都很喜歡。</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="reviewer-name">林先生</span>
+                        <span class="review-stars">★★★★★</span>
+                    </div>
+                    <p class="review-text">現切新鮮，口感脆又香，完全不黏牙！價格實惠，CP值超高，真的是台南必買伴手禮，推薦給大家。</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="reviewer-name">王太太</span>
+                        <span class="review-stars">★★★★☆</span>
+                    </div>
+                    <p class="review-text">買了綜合花生糖回家，長輩小孩都很喜歡，一口接一口停不下來。花生顆粒感適度，很涮嘴！</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="reviewer-name">張小姐</span>
+                        <span class="review-stars">★★★★★</span>
+                    </div>
+                    <p class="review-text">從小吃到大的古早味！現在帶外地朋友來台南必定推薦這家，老闆很親切，花生糖品質穩定又好吃。</p>
+                </div>
+                
+                <div class="review-card">
+                    <div class="review-header">
+                        <span class="reviewer-name">黃先生</span>
+                        <span class="review-stars">★★★★★</span>
+                    </div>
+                    <p class="review-text">白芝麻花生糖超香的！口感酥脆，芝麻和花生的比例剛剛好，送禮自用兩相宜，強烈推薦！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 店鋪資訊 -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-title">
+                <h2>店鋪資訊</h2>
+                <p class="section-subtitle">歡迎蒞臨品嚐台南道地古早味</p>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <h3>店鋪地址</h3>
+                            <p>台南市中西區西門路一段697號</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-details">
+                            <h3>聯絡電話</h3>
+                            <p><a href="tel:06-222-0099">06-222-0099</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div class="info-details">
+                            <h3>營業時間 <span class="status-badge">營業中</span></h3>
+                            <table class="hours-table">
+                                <tr>
+                                    <td>星期一至星期日</td>
+                                    <td>09:00 - 21:00</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.5445!2d120.1947509!3d22.9872811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e767bc38fdae5%3A0xf54557da28d948ab!2z5aSn54Gj6Iqx55Sf57OWKOilv-mWgOW6lyk!5e0!3m2!1szh-TW!2stw!4v1234567890" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>大灣花生糖(西門店)</h3>
+                    <p>台南在地傳統伴手禮專賣店</p>
+                    <p>堅持品質 · 用心製作 · 傳承古早味</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/a062220099/?locale=zh_TW" target="_blank" class="social-icon" title="Facebook"><img src="https://static.vecteezy.com/system/resources/thumbnails/065/386/537/small/facebook-circle-logo-icon-fb-app-transparent-background-premium-social-media-design-for-digital-download-free-png.jpg" alt="Facebook" class="icon"></a>
+                        <a href="https://page.line.me/289cnzqc" target="_blank" class="social-icon" title="LINE"><img src="https://static.vecteezy.com/system/resources/previews/018/930/709/non_2x/line-logo-line-icon-transparent-free-png.jpg" alt="LINE" class="icon"></a>
+                        <a href="https://www.google.com/maps/place/大灣花生糖(西門店)/@22.9872811,120.1947509,17z/data=!3m1!4b1!4m6!3m5!1s0x346e767bc38fdae5:0xf54557da28d948ab!8m2!3d22.9872811!4d120.1973258!16s%2Fg%2F11gzwqgnd" target="_blank" class="social-icon" title="Google Maps"><span class="icon-emoji">📍</span></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>聯絡資訊</h3>
+                    <p><span class="icon-emoji">📍</span> 台南市中西區西門路一段697號</p>
+                    <p><span class="icon-emoji">📞</span> <a href="tel:06-222-0099">06-222-0099</a></p>
+                    <p><span class="icon-emoji">🕐</span> 09:00 - 21:00（全年無休）</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>熱門商品</h3>
+                    <a href="#products">綜合花生糖 $100</a>
+                    <a href="#products">白芝麻花生糖 $100</a>
+                    <a href="#products">麥芽餅花生糖 $100</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>快速連結</h3>
+                    <a href="#about">關於我們</a>
+                    <a href="#products">精選商品</a>
+                    <a href="#checkout">結帳頁</a>
+                    <a href="#reviews">顧客好評</a>
+                    <a href="#location">店鋪資訊</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 大灣花生糖(西門店). All Rights Reserved.</p>
+                <p>本網站為專題製作使用</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="floating-cart" id="floating-cart-btn" aria-label="開啟購物車" type="button">
+        <span>🛒</span>
+        <span>購物車</span>
+        <span id="cart-count" class="floating-cart-count">0</span>
+    </button>
+
+    <div class="cart-modal" id="cart-modal" aria-hidden="true">
+        <div class="cart-modal-content">
+            <div class="cart-modal-header">
+                <h3 class="cart-modal-title">目前購物車</h3>
+                <button class="cart-modal-close" id="cart-modal-close" type="button" aria-label="關閉購物車">×</button>
+            </div>
+            <div class="cart-items" id="cart-modal-items"></div>
+            <div class="cart-modal-summary">
+                <div class="summary-row">
+                    <span>小計</span>
+                    <span id="cart-modal-subtotal">$0</span>
+                </div>
+                <div class="summary-row">
+                    <span>運費（滿 3000 免運）</span>
+                    <span id="cart-modal-shipping">$100</span>
+                </div>
+                <div class="summary-row total">
+                    <span>應付總額</span>
+                    <span id="cart-modal-total">$0</span>
+                </div>
+            </div>
+            <div class="cart-modal-actions">
+                <button class="cart-modal-btn secondary" id="cart-continue-btn" type="button">繼續購物</button>
+                <a class="cart-modal-btn primary" href="#checkout" id="cart-go-checkout">前往結帳</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="image-lightbox" id="image-lightbox" aria-hidden="true">
+        <div class="image-lightbox-content">
+            <button class="image-lightbox-close" id="lightbox-close" type="button" aria-label="關閉照片">×</button>
+            <img class="image-lightbox-img" id="lightbox-img" src="" alt="商品照片">
+        </div>
+    </div>
+
+    <!-- Kuse SDK（第三方） -->
+    <script src="https://cdn.kuse.ai/sdk.prd.js"></script>
+    
+    <script>
+        // 錨點連結平滑捲動
+        document.querySelectorAll(`a[href^="#"]`).forEach(anchor => {
+            anchor.addEventListener(`click`, function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute(`href`));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: `smooth`,
+                        block: `start`
+                    });
+                }
+            });
+        });
+
+        // 更新營業中/已打烊狀態
+        function updateBusinessStatus() {
+            const now = new Date();
+            const hours = now.getHours();
+            const statusBadge = document.querySelector(`.status-badge`);
+            
+            if (hours >= 9 && hours < 21) {
+                statusBadge.textContent = `營業中`;
+                statusBadge.style.background = `#4CAF50`;
+            } else {
+                statusBadge.textContent = `已打烊`;
+                statusBadge.style.background = `#F44336`;
+            }
+        }
+        
+        updateBusinessStatus();
+        setInterval(updateBusinessStatus, 60000);
+
+        // 區塊進場動畫（滾動到可視範圍才觸發）
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: `0px 0px -50px 0px`
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add(`in-view`);
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll(`section:not(.hero)`).forEach(section => {
+            observer.observe(section);
+        });
+
+        // CTA 按鈕點擊紀錄（console）
+        document.querySelectorAll(`.cta-btn, .cta-btn-large`).forEach(btn => {
+            btn.addEventListener(`click`, function() {
+                const action = this.textContent.trim();
+                console.log(`CTA clicked: ${action}`);
+            });
+        });
+
+        // 首屏背景輪播（自動）
+        const heroBgTrack = document.querySelector(`#hero-bg-track`);
+        const heroBgSlides = heroBgTrack ? Array.from(heroBgTrack.querySelectorAll(`.hero-bg-slide`)) : [];
+        let heroBgIndex = 0;
+
+        if (heroBgTrack && heroBgSlides.length > 1) {
+            const firstClone = heroBgSlides[0].cloneNode(true);
+            heroBgTrack.appendChild(firstClone);
+
+            setInterval(() => {
+                heroBgIndex += 1;
+                heroBgTrack.style.transition = `transform 0.9s ease`;
+                heroBgTrack.style.transform = `translateX(-${heroBgIndex * 100}%)`;
+
+                if (heroBgIndex === heroBgSlides.length) {
+                    setTimeout(() => {
+                        heroBgTrack.style.transition = `none`;
+                        heroBgIndex = 0;
+                        heroBgTrack.style.transform = `translateX(0)`;
+                        void heroBgTrack.offsetHeight;
+                    }, 950);
+                }
+            }, 3500);
+        }
+
+        // 購物車＋結帳邏輯
+        const CART_STORAGE_KEY = `dawan-peanut-cart`;
+        const ORDER_SUBMITTED_FLAG = `order-submitted`;
+        const SHIPPING_FEE = 100;
+        const FREE_SHIPPING_THRESHOLD = 3000;
+        const cartItemsContainer = document.querySelector(`#cart-items`);
+        const cartSubtotalEl = document.querySelector(`#cart-subtotal`);
+        const cartShippingEl = document.querySelector(`#cart-shipping`);
+        const cartTotalEl = document.querySelector(`#cart-total`);
+        const cartCountEl = document.querySelector(`#cart-count`);
+        const cartModal = document.querySelector(`#cart-modal`);
+        const floatingCartBtn = document.querySelector(`#floating-cart-btn`);
+        const cartModalCloseBtn = document.querySelector(`#cart-modal-close`);
+        const cartContinueBtn = document.querySelector(`#cart-continue-btn`);
+        const cartGoCheckoutBtn = document.querySelector(`#cart-go-checkout`);
+        const cartModalItemsContainer = document.querySelector(`#cart-modal-items`);
+        const cartModalSubtotalEl = document.querySelector(`#cart-modal-subtotal`);
+        const cartModalShippingEl = document.querySelector(`#cart-modal-shipping`);
+        const cartModalTotalEl = document.querySelector(`#cart-modal-total`);
+        const checkoutForm = document.querySelector(`#checkout-form`);
+        const checkoutSubmitBtn = document.querySelector(`#checkout-submit`);
+        const checkoutMessage = document.querySelector(`#checkout-message`);
+        const phoneErr = document.querySelector(`#phoneErr`);
+        const addrErr = document.querySelector(`#addrErr`);
+        const imageLightbox = document.querySelector(`#image-lightbox`);
+        const lightboxImg = document.querySelector(`#lightbox-img`);
+        const lightboxCloseBtn = document.querySelector(`#lightbox-close`);
+        let cart = [];
+
+        function loadCart() {
+            const raw = localStorage.getItem(`cart`) || localStorage.getItem(CART_STORAGE_KEY);
+            cart = raw ? JSON.parse(raw) : [];
+        }
+
+        function saveCart() {
+            localStorage.setItem(CART_STORAGE_KEY, JSON.stringify(cart));
+            localStorage.setItem(`cart`, JSON.stringify(cart));
+        }
+
+        function clearCartStorage() {
+            localStorage.removeItem(`cart`);
+            localStorage.removeItem(CART_STORAGE_KEY);
+        }
+
+        function resetCheckoutForm() {
+            if (checkoutForm) checkoutForm.reset();
+            if (phoneErr) phoneErr.innerText = ``;
+            if (addrErr) addrErr.innerText = ``;
+            if (checkoutMessage) checkoutMessage.textContent = ``;
+        }
+
+        function getSubtotal() {
+            return cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+        }
+
+        function getShipping(subtotal) {
+            if (subtotal === 0) return 0;
+            return subtotal >= FREE_SHIPPING_THRESHOLD ? 0 : SHIPPING_FEE;
+        }
+
+        function renderCart() {
+            const cartItemsHtml = cart.length === 0
+                ? `<p>購物車目前是空的，請先加入商品。</p>`
+                : cart.map((item, index) => `
+                    <div class="cart-item">
+                        <div>
+                            <div class="cart-item-title">${item.name}</div>
+                            <div class="cart-item-meta">$${item.price} x ${item.qty}</div>
+                        </div>
+                        <div class="cart-item-actions">
+                            <button class="qty-btn" type="button" data-action="decrease" data-index="${index}">-</button>
+                            <button class="qty-btn" type="button" data-action="increase" data-index="${index}">+</button>
+                            <button class="remove-btn" type="button" data-action="remove" data-index="${index}">移除</button>
+                        </div>
+                    </div>
+                `).join(``);
+
+            if (cart.length === 0) {
+                cartItemsContainer.innerHTML = cartItemsHtml;
+                cartModalItemsContainer.innerHTML = cartItemsHtml;
+            } else {
+                cartItemsContainer.innerHTML = cartItemsHtml;
+                cartModalItemsContainer.innerHTML = cartItemsHtml;
+            }
+
+            const subtotal = getSubtotal();
+            const shipping = getShipping(subtotal);
+            const total = subtotal + shipping;
+            const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+
+            cartSubtotalEl.textContent = `$${subtotal}`;
+            cartShippingEl.textContent = shipping === 0 ? `免運` : `$${shipping}`;
+            cartTotalEl.textContent = `$${total}`;
+            cartModalSubtotalEl.textContent = `$${subtotal}`;
+            cartModalShippingEl.textContent = shipping === 0 ? `免運` : `$${shipping}`;
+            cartModalTotalEl.textContent = `$${total}`;
+            cartCountEl.textContent = String(totalQty);
+            checkoutSubmitBtn.disabled = cart.length === 0;
+        }
+
+        function openCartModal() {
+            cartModal.classList.add(`show`);
+            cartModal.setAttribute(`aria-hidden`, `false`);
+            document.body.style.overflow = `hidden`;
+        }
+
+        function closeCartModal() {
+            cartModal.classList.remove(`show`);
+            cartModal.setAttribute(`aria-hidden`, `true`);
+            document.body.style.overflow = ``;
+        }
+
+        function addToCart(name, price) {
+            const existingItem = cart.find(item => item.name === name);
+            if (existingItem) {
+                existingItem.qty += 1;
+            } else {
+                cart.push({ name, price, qty: 1 });
+            }
+            saveCart();
+            renderCart();
+        }
+
+        document.querySelectorAll(`.menu-card`).forEach(card => {
+            const nameElement = card.querySelector(`h3`);
+            const priceElement = card.querySelector(`.price`);
+            if (!nameElement || !priceElement) return;
+
+            const addButton = document.createElement(`button`);
+            addButton.className = `add-to-cart-btn`;
+            addButton.type = `button`;
+            addButton.textContent = `加入購物車`;
+            card.appendChild(addButton);
+
+            addButton.addEventListener(`click`, () => {
+                const name = nameElement.textContent.trim();
+                const priceText = priceElement.textContent;
+                const matched = priceText.match(/\$(\d+)/);
+                const price = matched ? Number(matched[1]) : 0;
+                addToCart(name, price);
+                checkoutMessage.textContent = `已加入 ${name}`;
+            });
+        });
+
+        cartItemsContainer.addEventListener(`click`, (event) => {
+            const target = event.target;
+            if (!(target instanceof HTMLElement)) return;
+
+            const action = target.dataset.action;
+            const index = Number(target.dataset.index);
+            if (Number.isNaN(index) || !action) return;
+
+            if (action === `increase`) {
+                cart[index].qty += 1;
+            } else if (action === `decrease`) {
+                cart[index].qty -= 1;
+                if (cart[index].qty <= 0) {
+                    cart.splice(index, 1);
+                }
+            } else if (action === `remove`) {
+                cart.splice(index, 1);
+            }
+
+            saveCart();
+            renderCart();
+        });
+
+        cartModalItemsContainer.addEventListener(`click`, (event) => {
+            const target = event.target;
+            if (!(target instanceof HTMLElement)) return;
+
+            const action = target.dataset.action;
+            const index = Number(target.dataset.index);
+            if (Number.isNaN(index) || !action) return;
+
+            if (action === `increase`) {
+                cart[index].qty += 1;
+            } else if (action === `decrease`) {
+                cart[index].qty -= 1;
+                if (cart[index].qty <= 0) {
+                    cart.splice(index, 1);
+                }
+            } else if (action === `remove`) {
+                cart.splice(index, 1);
+            }
+
+            saveCart();
+            renderCart();
+        });
+
+        floatingCartBtn.addEventListener(`click`, openCartModal);
+        cartModalCloseBtn.addEventListener(`click`, closeCartModal);
+        cartContinueBtn.addEventListener(`click`, closeCartModal);
+        cartGoCheckoutBtn.addEventListener(`click`, () => {
+            closeCartModal();
+            const checkoutSection = document.querySelector(`#checkout`);
+            if (checkoutSection) {
+                checkoutSection.scrollIntoView({ behavior: `smooth`, block: `start` });
+            }
+        });
+        cartModal.addEventListener(`click`, (event) => {
+            if (event.target === cartModal) {
+                closeCartModal();
+            }
+        });
+
+        function openLightbox(src, alt) {
+            lightboxImg.src = src;
+            lightboxImg.alt = alt || `商品照片`;
+            imageLightbox.classList.add(`show`);
+            imageLightbox.setAttribute(`aria-hidden`, `false`);
+            document.body.style.overflow = `hidden`;
+        }
+
+        function closeLightbox() {
+            imageLightbox.classList.remove(`show`);
+            imageLightbox.setAttribute(`aria-hidden`, `true`);
+            lightboxImg.src = ``;
+            document.body.style.overflow = ``;
+        }
+
+        // 只讓「產品菜單」圖片可放大；精選商品（product-card）不需要點開
+        document.querySelectorAll(`.menu-card img`).forEach((img) => {
+            img.style.cursor = `zoom-in`;
+            img.addEventListener(`click`, () => {
+                openLightbox(img.src, img.alt);
+            });
+        });
+
+        lightboxCloseBtn.addEventListener(`click`, closeLightbox);
+        imageLightbox.addEventListener(`click`, (event) => {
+            if (event.target === imageLightbox) {
+                closeLightbox();
+            }
+        });
+        document.addEventListener(`keydown`, (event) => {
+            if (event.key === `Escape` && imageLightbox.classList.contains(`show`)) {
+                closeLightbox();
+            }
+        });
+
+        // ===== 訂單送出最終穩定版 =====
+        (function () {
+            const FORM_ID = `checkout-form`;
+            const MSG_ID = `checkout-message`;
+            const STORAGE_KEY = `dawan-peanut-cart`;
+
+            const form = document.getElementById(FORM_ID);
+            const msg = document.getElementById(MSG_ID);
+
+            // ❗防呆：如果表單不存在直接停止
+            if (!form) {
+                console.error(`❌ 找不到 checkout-form`);
+                return;
+            }
+
+            form.addEventListener(`submit`, function (e) {
+                e.preventDefault();
+
+                try {
+                    console.log(`📦 訂單流程啟動`);
+
+                    // ===== 讀購物車 =====
+                    const checkoutCart = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+
+                    if (checkoutCart.length === 0) {
+                        alert(`購物車是空的`);
+                        return;
+                    }
+
+                    // ===== 讀表單 =====
+                    const nameEl = document.getElementById(`name`);
+                    const phoneEl = document.getElementById(`phone`);
+                    const addrEl = document.getElementById(`address`);
+
+                    const name = nameEl?.value.trim();
+                    const phone = phoneEl?.value.trim();
+                    const address = addrEl?.value.trim();
+
+                    if (!name || !phone || !address) {
+                        alert(`請填寫完整資料`);
+                        return;
+                    }
+
+                    if (!/^09\d{8}$/.test(phone)) {
+                        alert(`手機格式錯誤（需 09 開頭 10 碼）`);
+                        return;
+                    }
+
+                    // ===== 訂單資料 =====
+                    const orderId = `ORDER-` + Date.now();
+
+                    const order = {
+                        orderId,
+                        name,
+                        phone,
+                        address,
+                        items: checkoutCart,
+                        total: checkoutCart.reduce((sum, i) => sum + i.price * i.qty, 0),
+                        time: new Date().toLocaleString()
+                    };
+
+                    // 存訂單紀錄
+                    const orders = JSON.parse(localStorage.getItem(`orders`) || `[]`);
+                    orders.push(order);
+                    localStorage.setItem(`orders`, JSON.stringify(orders));
+
+                    // 清購物車
+                    localStorage.removeItem(STORAGE_KEY);
+
+                    // 清表單
+                    form.reset();
+
+                    // ===== 成功顯示（關鍵）=====
+                    if (msg) {
+                        msg.innerHTML = `
+                            <div style="
+                                padding:15px;
+                                border-radius:10px;
+                                background:#e8f5e9;
+                                color:#1b5e20;
+                                font-weight:bold;
+                                margin-top:10px;
+                            ">
+                                ✅ 訂單成功！<br>
+                                訂單編號：<span style="color:#000">${orderId}</span>
+                            </div>
+                        `;
+                    }
+
+                    console.log(`✅ 訂單成功建立:`, order);
+
+                    // 不跳頁，送出後完整淨空購物車與畫面
+                    localStorage.removeItem(`cart`);
+                    localStorage.removeItem(STORAGE_KEY);
+                    cart = [];
+                    renderCart();
+
+                    if (phoneErr) phoneErr.innerText = ``;
+                    if (addrErr) addrErr.innerText = ``;
+                } catch (err) {
+                    console.error(`❌ 訂單系統錯誤:`, err);
+                    alert(`系統錯誤，請開F12查看`);
+                }
+            });
+        })();
+
+        if (localStorage.getItem(ORDER_SUBMITTED_FLAG) === `1`) {
+            clearCartStorage();
+            resetCheckoutForm();
+            localStorage.removeItem(ORDER_SUBMITTED_FLAG);
+        }
+
+        loadCart();
+        renderCart();
+
+        window.addEventListener(`pageshow`, () => {
+            if (localStorage.getItem(ORDER_SUBMITTED_FLAG) === `1`) {
+                clearCartStorage();
+                resetCheckoutForm();
+                localStorage.removeItem(ORDER_SUBMITTED_FLAG);
+            }
+            loadCart();
+            renderCart();
+        });
+
+        // 手機版互動微調
+        if (window.innerWidth < 768) {
+            document.querySelectorAll(`.product-card, .feature-card, .review-card`).forEach(card => {
+                card.addEventListener(`click`, function() {
+                    this.style.transform = `scale(0.98)`;
+                    setTimeout(() => {
+                        this.style.transform = ``;
+                    }, 200);
+                });
+            });
+        }
+    </script>
+</body>
+</html>
