@@ -516,20 +516,12 @@
             .hero h1 {
                 font-size: clamp(2rem, 4vw, 3rem);
             }
-            
-            .menu-container {
-                justify-content: center;
-                gap: 15px;
-            }
-            
-            .menu-card {
-                width: 180px;
-            }
         }
         
         @media (max-width: 768px) {
             .feature-grid {
                 grid-template-columns: 1fr;
+                gap: 18px;
             }
 
             .about {
@@ -549,90 +541,165 @@
                 padding: 50px 0;
             }
             
+            /* —— 手機首頁 Hero：全幅背景、內容置中、四按鈕 2×2 —— */
             .hero {
-                min-height: auto;
-                padding: 60px 0;
+                min-height: clamp(26rem, 88vh, 42rem);
+                padding: clamp(44px, 11vw, 64px) 0 clamp(36px, 8vw, 52px);
                 text-align: center;
             }
-            
-            .hero h1 {
-                font-size: clamp(1.8rem, 6vw, 2.5rem);
-                margin-bottom: 15px;
-            }
-            
-            .hero-slogan {
-                font-size: clamp(1rem, 4vw, 1.3rem);
-                margin-bottom: 25px;
-            }
-            
-            .hero-rating {
-                margin-bottom: 30px;
+
+            .hero .container {
+                width: 100%;
+                max-width: 26.5rem;
+                margin-left: auto;
+                margin-right: auto;
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
             }
 
-            
+            .hero-content {
+                width: 100%;
+            }
+
+            .hero-badge {
+                margin-bottom: 10px;
+            }
+
+            .hero h1 {
+                font-size: clamp(1.65rem, 6.2vw, 2.15rem);
+                margin-bottom: 10px;
+                line-height: 1.22;
+            }
+
+            .hero-slogan {
+                font-size: clamp(0.95rem, 3.8vw, 1.2rem);
+                margin-bottom: 16px;
+                letter-spacing: 1px;
+            }
+
+            .hero-rating {
+                margin-bottom: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+                row-gap: 6px;
+                column-gap: 10px;
+            }
+
             .hero-cta {
-                grid-template-columns: 1fr;
-                gap: 12px;
-                max-width: 400px;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 10px;
+                max-width: 100%;
+                width: 100%;
                 margin: 0 auto;
             }
-            
+
+            .hero-cta .cta-btn {
+                padding: 12px 8px;
+                font-size: 0.82rem;
+                white-space: normal;
+                text-align: center;
+                line-height: 1.3;
+                min-height: 3.1rem;
+                border-radius: var(--radius-sm);
+            }
+
+            .hero-cta .cta-btn img.icon {
+                width: 20px !important;
+                height: 20px;
+                flex-shrink: 0;
+            }
+
             .cta-btn {
                 padding: 16px 24px;
                 font-size: 0.95rem;
             }
-            
+
             .section-title {
-                margin-bottom: 40px;
+                margin-bottom: 36px;
             }
-            
+
             .section-title h2 {
-                font-size: clamp(1.5rem, 5vw, 2.2rem);
+                font-size: clamp(1.45rem, 5vw, 2.05rem);
             }
-            
-            .features-grid {
-                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-                gap: 25px;
+
+            .section-subtitle {
+                font-size: 1.05rem;
+                padding: 0 4px;
             }
-            
+
             .products-grid {
-                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-                gap: 25px;
+                grid-template-columns: 1fr;
+                gap: 18px;
             }
-            
+
             .product-card {
-                margin: 0 auto;
-                max-width: 320px;
-            }
-            
-            .menu-container {
-                flex-direction: column;
-                align-items: center;
-                gap: 20px;
-            }
-            
-            .menu-card {
+                margin: 0;
+                max-width: none;
                 width: 100%;
-                max-width: 300px;
-                padding: 15px;
             }
-            
+
+            .menu {
+                padding: 48px 0;
+            }
+
+            .menu .section-title {
+                margin-bottom: 26px;
+            }
+
+            .menu-category h2 {
+                font-size: 1.12rem;
+                margin-bottom: 14px;
+            }
+
+            .menu-card {
+                padding: 12px 8px;
+            }
+
             .menu-card h3 {
-                font-size: 1rem;
+                font-size: 0.88rem;
+                line-height: 1.32;
+                word-break: break-word;
             }
-            
+
+            .menu-card .price {
+                font-size: 0.9rem;
+            }
+
+            .menu-note {
+                margin-top: 28px;
+            }
+
             .reviews-grid {
                 grid-template-columns: 1fr;
                 gap: 20px;
             }
-            
-            .location-content {
-                grid-template-columns: 1fr;
-                gap: 30px;
+
+            /* —— 手機結帳：上下排列 —— */
+            .checkout-layout {
+                grid-template-columns: 1fr !important;
+                gap: 20px;
             }
 
-            .checkout-layout {
-                grid-template-columns: 1fr;
+            .checkout-layout .cart-panel,
+            .checkout-layout .checkout-form-panel {
+                width: 100%;
+            }
+
+            /* 店鋪資訊：手機版改為上下堆疊 */
+            .location-content {
+                display: grid;
+                grid-template-columns: 1fr !important;
+                grid-auto-rows: auto;
+                row-gap: 24px;
+                align-items: stretch;
+                max-width: 720px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .location-content > * {
+                width: 100%;
             }
             
             .location-info {
@@ -756,7 +823,7 @@
                 font-size: 0.9rem;
             }
             
-            .features-grid,
+            .feature-grid,
             .products-grid {
                 grid-template-columns: 1fr;
                 gap: 20px;
@@ -781,14 +848,22 @@
                 font-size: 1.6rem;
             }
             
-            .menu-card {
-                max-width: 280px;
-                padding: 12px;
+            .menu .menu-card {
+                max-width: none;
+                width: 100%;
+                padding: 11px 6px;
             }
             
             .menu-card img {
                 width: 100%;
                 height: auto;
+            }
+
+            .menu-card .add-to-cart-btn {
+                width: auto;
+                min-width: 140px;
+                padding: 10px 12px;
+                font-size: 0.92rem;
             }
             
             .location-info {
@@ -849,23 +924,16 @@
             .hero-cta {
                 max-width: 760px;
             }
-
-            .menu-card {
-                width: 190px;
-            }
         }
 
         @media (max-width: 768px) and (min-width: 415px) {
-            .hero {
-                min-height: 68vh;
-            }
-
             .section-title h2 {
                 font-size: clamp(1.45rem, 4.8vw, 2rem);
             }
 
-            .menu-card {
-                max-width: 340px;
+            .menu .menu-card {
+                max-width: none;
+                width: 100%;
             }
 
             .cart-modal-content {
@@ -901,8 +969,9 @@
                 font-size: 0.95rem;
             }
 
-            .menu-card {
-                max-width: 260px;
+            .menu .menu-card {
+                max-width: none;
+                width: 100%;
             }
 
             .cart-item-meta {
@@ -933,9 +1002,10 @@
                 font-size: 0.85rem;
             }
 
-            .menu-card {
-                max-width: 240px;
-                padding: 10px;
+            .menu .menu-card {
+                max-width: none;
+                width: 100%;
+                padding: 10px 5px;
             }
 
             .checkout-form-panel,
@@ -959,8 +1029,11 @@
             .cta-btn-large,
             .product-card,
             .feature-card,
-            .review-card,
-            .menu-card {
+            .review-card {
+                min-height: 44px;
+            }
+
+            .menu-card .add-to-cart-btn {
                 min-height: 44px;
             }
             
@@ -1438,7 +1511,11 @@
         }
         
         .menu-category {
-            margin-bottom: 40px;
+            margin-bottom: 0;
+        }
+
+        .menu-category + .menu-category {
+            margin-top: 40px;
         }
         
         .menu-category h2 {
@@ -1447,25 +1524,37 @@
             margin-bottom: 20px;
             padding-bottom: 10px;
             border-bottom: 2px solid var(--color-primary);
+            text-align: left;
         }
         
+        /* 菜單：Flex + 置中，未滿一列時卡片仍維持置中（電腦／平板） */
         .menu-container {
             display: flex;
-            gap: 20px;
             flex-wrap: wrap;
             justify-content: center;
+            gap: 20px;
+            width: 100%;
+            align-items: stretch;
+        }
+
+        .menu-container > .menu-card {
+            min-width: 0;
+            flex: 0 0 calc((100% - 4 * 20px) / 5);
+            max-width: calc((100% - 4 * 20px) / 5);
+            width: calc((100% - 4 * 20px) / 5);
         }
         
         .menu-card {
             background: var(--color-white);
             padding: 20px;
-            width: 200px;
+            width: 100%;
+            max-width: none;
             border-radius: 12px;
             text-align: center;
             transition: var(--transition);
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            opacity: 0;
-            animation: fadeIn 0.8s ease-out forwards;
+            opacity: 1;
+            transform: none;
         }
 
         .menu-card.no-image::before {
@@ -1644,9 +1733,12 @@
         
         .location-content {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            align-items: center;
+            grid-template-columns: minmax(280px, 1fr) minmax(0, 1.15fr);
+            gap: 28px;
+            align-items: start;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
         }
 
         
@@ -1871,6 +1963,16 @@
             margin-top: 20px;
             justify-content: center;
         }
+
+        /* 覆蓋 .footer-section a 的 display:block，圓圈內圖示才能置中 */
+        .footer-section .social-links a.social-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 0;
+            white-space: normal;
+            line-height: 0;
+        }
         
         .social-icon {
             width: 45px;
@@ -1881,6 +1983,7 @@
             align-items: center;
             justify-content: center;
             font-size: 1.3rem;
+            line-height: 0;
         }
         
         .social-icon:hover {
@@ -1888,9 +1991,18 @@
             transform: translateY(-3px);
         }
 
-        .social-icon {
-            width: 45px;
-            height: 45px;
+        .footer-section .social-links a.social-icon img {
+            width: 24px;
+            height: 24px;
+            max-width: none;
+            display: block;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .footer-section .social-links a.social-icon .icon-emoji {
+            font-size: 1.5rem;
+            line-height: 1;
         }
 
         .footer-bottom {
@@ -1917,6 +2029,35 @@
         .kuse-branding svg {
             height: 1.2em;
             transition: var(--transition);
+        }
+
+        /* 菜單 RWD：依斷點調整每列欄寬（須放在樣式表後段） */
+        @media (max-width: 1200px) {
+            .menu-container > .menu-card {
+                flex: 0 0 calc((100% - 3 * 20px) / 4);
+                max-width: calc((100% - 3 * 20px) / 4);
+                width: calc((100% - 3 * 20px) / 4);
+            }
+        }
+
+        @media (max-width: 992px) {
+            .menu-container > .menu-card {
+                flex: 0 0 calc((100% - 2 * 20px) / 3);
+                max-width: calc((100% - 2 * 20px) / 3);
+                width: calc((100% - 2 * 20px) / 3);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu-container {
+                gap: 12px;
+            }
+
+            .menu-container > .menu-card {
+                flex: 0 0 calc((100% - 12px) / 2);
+                max-width: calc((100% - 12px) / 2);
+                width: calc((100% - 12px) / 2);
+            }
         }
     </style>
 </head>
@@ -1972,7 +2113,7 @@
                 </p>
 
                 <p>
-                    嚴選台南在地優質花生，採用傳統古法製作，
+                    嚴選雲林北港優質花生，採用傳統古法製作，
                     不添加防腐劑，讓您吃得安心、吃得健康。
                     無論自用或送禮，皆是最佳選擇。
                 </p>
@@ -1983,7 +2124,7 @@
             <div class="feature-grid">
                 <div class="feature">
                     <h3>現場手工現切</h3>
-                    <p>每一塊花生糖都是現場手工現切，保證新鮮度與最佳口感，讓您品嚐到最道地的台南古早味。</p>
+                    <p>每一塊花生糖都是手工現切，保證新鮮度與最佳口感，讓您品嚐到最道地的台南古早味。</p>
                 </div>
 
                 <div class="feature">
@@ -2156,7 +2297,7 @@
                 <h2>手工麥芽餅</h2>
                 <div class="menu-container">
                     <div class="menu-card">
-                        <img class="img-center" src="花生麥芽餅.jpg" alt="">
+                        <img class="img-center" src="花生麥芽餅.jpg" alt="花生麥芽餅">
                         <h3>花生麥芽餅</h3>
                         <p class="price">$160 / 瓶</p>
                     </div>
@@ -2366,8 +2507,8 @@
                     <p>台南在地傳統伴手禮專賣店</p>
                     <p>堅持品質 · 用心製作 · 傳承古早味</p>
                     <div class="social-links">
-                        <a href="https://www.facebook.com/a062220099/?locale=zh_TW" target="_blank" class="social-icon" title="Facebook"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook" class="icon" style="width: 30px;"></a>
-                        <a href="https://page.line.me/289cnzqc" target="_blank" class="social-icon" title="LINE"><img src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg" alt="LINE" class="icon" style="width: 30px;"></a>
+                        <a href="https://www.facebook.com/a062220099/?locale=zh_TW" target="_blank" class="social-icon" title="Facebook"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook" class="icon" width="24" height="24"></a>
+                        <a href="https://page.line.me/289cnzqc" target="_blank" class="social-icon" title="LINE"><img src="https://upload.wikimedia.org/wikipedia/commons/4/41/LINE_logo.svg" alt="LINE" class="icon" width="24" height="24"></a>
                         <a href="https://www.google.com/maps/place/大灣花生糖(西門店)/@22.9872811,120.1947509,17z/data=!3m1!4b1!4m6!3m5!1s0x346e767bc38fdae5:0xf54557da28d948ab!8m2!3d22.9872811!4d120.1973258!16s%2Fg%2F11gzwqgnd" target="_blank" class="social-icon" title="Google Maps"><span class="icon-emoji">📍</span></a>
                     </div>
                 </div>
@@ -2618,15 +2759,18 @@
             });
         });
 
-        cartModalItemsContainer.addEventListener(`click`, (event) => {
+        const handleCartAction = (event) => {
             const action = event.target.dataset.action;
             const index = Number(event.target.dataset.index);
-            if (!action) return;
+            if (!action || Number.isNaN(index)) return;
             if (action === `increase`) cart[index].qty += 1;
             else if (action === `decrease`) { cart[index].qty -= 1; if (cart[index].qty <= 0) cart.splice(index, 1); }
             else if (action === `remove`) cart.splice(index, 1);
             saveCart(); renderCart();
-        });
+        };
+
+        cartModalItemsContainer.addEventListener(`click`, handleCartAction);
+        cartItemsContainer.addEventListener(`click`, handleCartAction);
 
         floatingCartBtn.addEventListener(`click`, () => cartModal.classList.add(`show`));
         cartModalCloseBtn.addEventListener(`click`, () => cartModal.classList.remove(`show`));
